@@ -23,7 +23,7 @@ namespace PreventScreensaver
             Task.Run(() =>
             {
                 Running = true;
-                int maxCount = 5*60;
+                int maxCount = 4*60;
                 int count = 0;
                 int x = 0;
                 int y = 0;
